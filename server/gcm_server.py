@@ -9,7 +9,7 @@ import urllib
 import urllib2
 import urlparse
 
-API_KEY = None
+API_KEY = AIzaSyD7OJxKxqnjYwkpYTWGyBifdscFrrGX_lk
 reg_id_set = set()
 
 class GCMHandler(BaseHTTPServer.BaseHTTPRequestHandler):
