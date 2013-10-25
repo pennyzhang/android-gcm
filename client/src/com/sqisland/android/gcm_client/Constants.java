@@ -3,7 +3,7 @@ package com.sqisland.android.gcm_client;
 public abstract class Constants {
   // Change this to the project id from your API project created at
   // code.google.com, as shown in the url of your project.
-  public static final String SENDER_ID = null;
+  public static final String SENDER_ID = "672214798778";
   // Change this to match your server.
   public static final String SERVER_URL = null;
 
