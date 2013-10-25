@@ -6,16 +6,12 @@ The client is an Android app and the server is a python script.
 
 Client
 ------
-You need to change the value of two variables in `Constants.java`:
+You need to change the value of one variable in `Constants.java`:
 
-  - `SENDER_ID`: Change this to the project id from your API project created at `code.google.com`, as shown in the url for your project.
-  - `SERVER_URL`: Change this to match your server
+  - `SERVER_URL`: Change this to match your server (E.g http://192.168.1.1:8080)
 
 When the app starts, it checks if is already registered with GCM. If not, it registers the device with GCM, then send the registration id to the server.
 
-Server
-------
-You need to change `API_KEY` to the one you generated from your API project at `code.google.com`.
 
 The server has three endpoints:
 
